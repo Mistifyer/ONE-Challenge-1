@@ -9,4 +9,4 @@ Se creó el archivo STYLE.CSS para poner ahí el estilo de la página. <br>
 Se copió el archivo DEFAULT.CSS para eliminar las configuraciones de estilo del navegador. <br>
 Dentro de las etiquetas de HEAD se declaran el lenguaje, el charset, el título, y se invocan los 2 archivos de estilo. <br><br>
 2. Objetos de la página INDEX.HTML. <br><br>
-Se consulta el diseño sugerido en FIGMA para determinar en general cuales son los objetos que se deben usar. <br>
+Se consulta el diseño sugerido en la web de FIGMA para determinar en general cuales son los objetos que se deben usar. <br>
