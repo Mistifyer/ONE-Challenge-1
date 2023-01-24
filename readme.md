@@ -8,12 +8,12 @@ El objetivo de este proyecto es crear una aplicación que permite encriptar y de
 <br>
 ### :one: Estructura principal del desarrollo. <br>
 <br>
-Se comienza por hacer la estructura HTML en el archivo principal INDEX.HTML con el HEAD y el BODY. <br>
-Dentro del BODY se estructura con el HEADER, MAIN y FOOTER. <br>
-En la parte superior del archivo HTML se coloca la instrucción <!DOCTYPE html> declarando la versión de HTML que usaremos. <br>
-En la parte inferior del archivo HTML se colocan las etiquetas SCRIPT para colocar el nombre del archivo JavaScript  que coneitne el código de programación que tiene la funcionalidad de la aplicación. <br>
-Dentro de las etiquetas de HEAD se declaran el lenguaje, el charset, el título, y se invocan los 2 archivos de estilo. <br>
-Dentro de la sección de HEAD se decrara el archivo reset.css que limpia el formato predefinido y se declara ademas el archivo index.css que contiene los estilos de esta apliación. <br>
+:small_orange_diamond: Se comienza por hacer la estructura HTML en el archivo principal INDEX.HTML con el HEAD y el BODY. <br>
+:small_orange_diamond: Dentro del BODY se estructura con el HEADER, MAIN y FOOTER. <br>
+:small_orange_diamond: En la parte superior del archivo HTML se coloca la instrucción <!DOCTYPE html> declarando la versión de HTML que usaremos. <br>
+:small_orange_diamond: En la parte inferior del archivo HTML se colocan las etiquetas SCRIPT para colocar el nombre del archivo JavaScript  que coneitne el código de programación que tiene la funcionalidad de la aplicación. <br>
+:small_orange_diamond: Dentro de las etiquetas de HEAD se declaran el lenguaje, el charset, el título, y se invocan los 2 archivos de estilo. <br>
+:small_orange_diamond: Dentro de la sección de HEAD se decrara el archivo reset.css que limpia el formato predefinido y se declara ademas el archivo index.css que contiene los estilos de esta apliación. <br>
 <br>
 
 ### :two: Objetos de la página INDEX.HTML. <br>
@@ -23,7 +23,7 @@ De forma general se requieren 5 secciones definidas por DIV con los siguientes o
       
 ##### :arrow_right: Sección HEADER <br>
            --Imagen del logotipo de alura. <br>
-           --:small_orange_diamond: Encabezado. <br>
+           --Encabezado. <br>
            --Parrafo de encabezado. <br>
 ##### :arrow_right: Sección MAIN > controles-izquierdo <br>
            --Etiqueda de una caja de texto. <br>
