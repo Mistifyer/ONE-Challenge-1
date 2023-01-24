@@ -1,8 +1,8 @@
-#ONE-Challenge-1 <br>
-<br>
-##Se trata de un codificador de texto como parte del reto de Oaracle-Alura para el grupo 4.<br>
-<br>
-El objetivo de este proyecto es crear una aplicación que permite encriptar y desencriptar texto que el usuario proporcionará mediante una caja de texto o textarea y con ayuda de los botones de encriptado o desencriptado se podrá encriptar y desencriptar el texto proporcionado. <br>
+# ONE-Challenge-1
+
+## Se trata de un codificador de texto como parte del reto de Oaracle-Alura para el grupo 4.
+
+_El objetivo de este proyecto es crear una aplicación que permite encriptar y desencriptar texto que el usuario proporcionará mediante una caja de texto o textarea y con ayuda de los botones de encriptado o desencriptado se podrá encriptar y desencriptar el texto proporcionado. <br>
 <br>
 <img src="images/pantalla01.jpg"> <br>
 <br>
