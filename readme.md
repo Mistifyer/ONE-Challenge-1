@@ -2,11 +2,11 @@
 
 ## Se trata de un codificador de texto como parte del reto de Oaracle-Alura para el grupo 4.
 
-_El objetivo de este proyecto es crear una aplicación que permite encriptar y desencriptar texto que el usuario proporcionará mediante una caja de texto o textarea y con ayuda de los botones de encriptado o desencriptado se podrá encriptar y desencriptar el texto proporcionado. <br>
+El objetivo de este proyecto es crear una aplicación que permite encriptar y desencriptar texto que el usuario proporcionará mediante una caja de texto o textarea y con ayuda de los botones de encriptado o desencriptado se podrá encriptar y desencriptar el texto proporcionado. <br>
 <br>
 <img src="images/pantalla01.jpg"> <br>
 <br>
-###:one: Estructura principal del desarrollo. <br>
+### :one: Estructura principal del desarrollo. <br>
 <br>
 Se comienza por hacer la estructura HTML en el archivo principal INDEX.HTML con el HEAD y el BODY. <br>
 Dentro del BODY se estructura con el HEADER, MAIN y FOOTER. <br>
@@ -15,7 +15,7 @@ En la parte inferior del archivo HTML se colocan las etiquetas SCRIPT para coloc
 Dentro de las etiquetas de HEAD se declaran el lenguaje, el charset, el título, y se invocan los 2 archivos de estilo. <br>
 Dentro de la sección de HEAD se decrara el archivo reset.css que limpia el formato predefinido y se declara ademas el archivo index.css que contiene los estilos de esta apliación. <br>
 <br>
-###:two: Objetos de la página INDEX.HTML. <br>
+### :two: Objetos de la página INDEX.HTML. <br>
 <br>
 Se consulta el diseño sugerido en la web de FIGMA para determinar en general cuales son los objetos que se deben usar. <br>
 De forma general se requieren 5 secciones definidas por DIV con los siguientes objetos: <br>
@@ -39,11 +39,11 @@ De forma general se requieren 5 secciones definidas por DIV con los siguientes o
     -Sección FOOTER <br>
         --Párrafo con fuente H2 para el copyright. <br>
 <br>
-###:three: Carpeta de imagenes. <br>
+### :three: Carpeta de imagenes. <br>
 <br>
 Se crea una carpeta de IMAGES y se colocan las 2 imágenes que se van a utilizar en el proyecto. <br>
 <br>
-###:four: Formato y estilos para la página. <br>
+### :four: Formato y estilos para la página. <br>
 <br>
 Se crea el archivo de estilo CSS llamado index.css. <br>
 A los objetos y secciones declarados en el archivo HTML se les assignó una CLASS para poder referenciarlos en el archivo de estilos. <br>
@@ -51,7 +51,7 @@ Se definen los tamaños de fuentes, Textareas, botones, colores, fondos, alineac
 Con ayuda del visor de herramientas del navegador Chrome se definen los MARGIN y PADDING de cada sección. <br>
 Se declaran los objetos que inicialmente estarán ocultos como el TEXTAREA DERECHO y el BOTÓN COPIAR. <br>
 <br>
-###:five: Código de funcionalidad de la aplicación en JavaScript. <br>
+### :five: Código de funcionalidad de la aplicación en JavaScript. <br>
 <br>
 Cabe mencionar que a los objetos declarados en el archivo HTML se les asignó un NAME y un ID para poder referencialos en el código JavaScript. <br>
 Se comienza con la Función para encriptar de acuerdo a las recomendaciones de ALURA. <br>
@@ -65,7 +65,7 @@ Se crea la Función para desencriptar si hay texto para encriptar utilizando la 
 Para cuando no hay texto para desencriptar y cuando el texto es Ingrese texto aquí, se utilizan las mismas funciones que para Encriptar. <br>
 Se crea la Función copiar y se le asigna al botón copiar con ayuda de la instrucción navigator.clipboard.writeText asignada a una variable local. <br>
 <br>
-###:six: Se trabaja en hacer responsiva la aplicación. <br>
+### :six: Se trabaja en hacer responsiva la aplicación. <br>
 <br>
 Se considera la siguiente instrucción: <br>
 meta name="viewport" content="width=device-width" <br>
