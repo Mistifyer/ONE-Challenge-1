@@ -14,25 +14,25 @@ Dentro de la sección de HEAD se decrara el archivo reset.css que limpia el form
 <br>
 Se consulta el diseño sugerido en la web de FIGMA para determinar en general cuales son los objetos que se deben usar. <br>
 De forma general se requieren 5 secciones definidas por DIV con los siguientes objetos: <br>
-    Sección HEADER
-        Imagen del logotipo de alura. <br>
-        Encabezado. <br>
-        Parrafo de encabezado. <br>
-    Sección MAIN > controles-izquierdo <br>
-        Etiqueda de una caja de texto. <br>
-        Textarea para colocar contenido para encriptar y desencriptar. <br>
-        Párrafo con letras pequeñas. <br>
-    Sección MAIN > botones <br>
-        Botón para encriptar. <br>
-        Botón para desencriptar. <br>
-    Sección MAIN > contenedor-derecho <br>
-        Imagen de la sección del lado derecho que es un niño. <br>
-        Textarea para colocar el texto encriptado y desencriptado de solo lectura. <br>
-        Párrafo de mensaje Ningún mensaje fue encontrado. <br>
-        Botón de copiado. <br>
-        Párrafo de Ingresa el texto. <br>
-    Sección FOOTER
-        Párrafo con fuente H2 para el copyright
+    -Sección HEADER <br>
+        --Imagen del logotipo de alura. <br>
+        --Encabezado. <br>
+        --Parrafo de encabezado. <br>
+    -Sección MAIN > controles-izquierdo <br>
+        --Etiqueda de una caja de texto. <br>
+        --Textarea para colocar contenido para encriptar y desencriptar. <br>
+        --Párrafo con letras pequeñas. <br>
+    -Sección MAIN > botones <br>
+        --Botón para encriptar. <br>
+        --Botón para desencriptar. <br>
+    -Sección MAIN > contenedor-derecho <br>
+        --Imagen de la sección del lado derecho que es un niño. <br>
+        --Textarea para colocar el texto encriptado y desencriptado de solo lectura. <br>
+        --Párrafo de mensaje Ningún mensaje fue encontrado. <br>
+        --Botón de copiado. <br>
+        --Párrafo de Ingresa el texto. <br>
+    -Sección FOOTER <br>
+        --Párrafo con fuente H2 para el copyright. <br>
 <br>
 3. Carpeta de imagenes. <br>
 <br>
