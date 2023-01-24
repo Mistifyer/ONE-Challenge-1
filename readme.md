@@ -23,7 +23,7 @@ De forma general se requieren 5 secciones definidas por DIV con los siguientes o
       
 ##### :arrow_right: Sección HEADER <br>
            --Imagen del logotipo de alura. <br>
-           --Encabezado. <br>
+           --:small_orange_diamond: Encabezado. <br>
            --Parrafo de encabezado. <br>
 ##### :arrow_right: Sección MAIN > controles-izquierdo <br>
            --Etiqueda de una caja de texto. <br>
