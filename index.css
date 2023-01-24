@@ -1,0 +1,244 @@
+html {
+    background: #F3F5FC;
+    font-family: Arial;
+    scroll-behavior: smooth;
+}
+
+    /* head */
+
+    /* body */
+
+        body{
+            min-width: fit-content;
+        }
+
+        /* form-izquierdo */
+
+        /* header */
+
+            header {
+            }
+
+            .img-logo-alura {
+                float: left;
+                margin: 0px 0 0 50px;
+            }
+
+            .encabezado {
+                display: block;
+                flex-wrap: wrap;    
+                text-align: center;
+                padding: 0 0 0 50px;
+            }
+
+            .h1-encabezado {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: x-large;
+                font-weight: bold;
+                font-style: normal;
+                -webkit-text-fill-color: darkblue;
+            }
+
+            .p-encabezado {
+                -webkit-text-fill-color: rgb(71, 71, 96);
+            }
+
+        /* main */
+
+            main {
+                text-align: left;
+                /*width: 940px;*/
+                margin: 15px 0 0 0;
+                padding: 15px;
+            }
+
+            header {
+                width: 100%;
+            }
+
+            .contenedor-principal {
+                display: flex;
+                flex-wrap: wrap;    
+                padding: 20px 20px 0;        
+            }
+
+            main {
+                display: flex;
+                flex-direction: column;            
+            }
+
+            .contenedor-izquierdo {
+                display: flex;
+                flex-wrap: wrap;
+                column-gap: 32px;
+                flex-direction: column;
+                margin: 0 auto;
+                justify-content: center;
+                align-items: center;  
+                text-align: center;
+                font-weight: 300;
+            }
+
+            .form-izquierdo {
+                text-align: left;
+                padding: 10px 50px;
+            }
+
+            .textarea-principal {
+                display: auto;
+                align-self: center;
+                margin: 0px auto;
+                padding: 10px 10px;
+                width: 95%;
+                height: 40vh;
+                border-radius: 1em;
+                font-size: 1em;
+                color: #0a3871;
+                resize: none;
+            }
+
+            .textarea-principal:hover {
+
+            }
+
+            .textarea-principal:focus {
+                background-color: rgb(247, 247, 247);
+            }
+
+            .mensaje-chico {
+                font-size: 10px;
+                -webkit-text-fill-color: rgb(71, 71, 96);
+                padding: 10px 15px 30px 0px;
+            }
+
+            .btns-encripcion {
+                margin: 100px 0 0 0;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                column-gap: 32px;            
+            }
+
+            .btn-encriptar {            
+                min-width: 256px;
+                width: 21%;
+                padding: 16px;
+                margin: 16px 0;
+                font-size: 12px;
+                color: white;
+                background: #b8bec6;
+                border: 1px solid;
+                border-radius: 15px;
+                transition: 1s background;
+                cursor: pointer;
+            }
+
+            .btn-encriptar:hover {
+                background: #0A3871;
+                font-size: 16px;
+            }
+
+            .btn-desencriptar {
+                min-width: 256px;
+                width: 21%;
+                padding: 16px;
+                margin: 16px 0;
+                font-size: 12px;
+                color: white;
+                background: #b8bec6;
+                border: 1px ;
+                border-radius: 15px;
+                transition: 1s background;
+                cursor: pointer;
+            }
+
+            .btn-desencriptar:hover {
+                background: #0A3871;
+                font-size: 16px;
+            }
+
+        /* form-derecho */
+
+            .contenedor-derecho {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid black;
+                border-radius: 32px;
+                background-color: white;
+                max-inline-size: 340px;
+                margin: 32px auto;
+                justify-content: space-evenly;
+                align-items: center;            
+            }
+
+            .form-derecho {
+                text-align: right;
+                padding: 10px 10px;
+            }
+
+            .img-munieco {
+                max-width: 100%;
+            }
+
+            .textarea-resultado {                     
+                display: none;
+                margin: 10px 10px;
+                align-self: center;
+                padding: 10px 10px;
+                width: 90%;
+                height: 40vh;
+                border-radius: 1em;
+                font-size: 1em;
+                resize: none;
+            }
+
+            .no-mensajes {
+                display: none;
+                margin: 32px;
+                text-align: center;            
+            }
+
+            .primero-ingresa {
+                margin: 32px;
+                text-align: center;            
+            }
+
+            .btn-copiar {
+                display: none;
+                width: 95%;
+                padding: 15px 0px;
+                margin: 3%;
+                font-size: 12px;
+                color: white;
+                background: #b8bec6;
+                border: 1;
+                border-radius: 15px;
+                transition: 1s background;
+                cursor: pointer;
+            }
+
+            .btn-copiar:hover {
+                background: #0A3871;
+                font-size: 16px;
+            }
+
+        /* footer */
+
+            footer {
+                padding: 40px 10px 40px 10px;
+            }
+
+            .copyright {
+                text-align: center;
+            }
+
+        /* responsive */
+            @media screen and (max-width:480px) {
+                h1 {
+                    text-align: center  ;
+                }
+                nav {
+                    position: static;
+                }
+            }

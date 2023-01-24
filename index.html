@@ -1,29 +1,117 @@
 <!DOCTYPE html> 
 
 <html>
+    
     <head>
+
         <html lang="es">
         <meta charset="UTF-8">
+        <!-- instrucción para hacer la aplicación responsiva -->
+        <meta name="viewport" content="width=device-width">
         <title>Codificador - Oracle-Alura - Challenge 1</title>
+        <meta name="Author" content="J. Alejandro Hernández S.">
+        <link rel="shortcut icon" href="images/Vector.png" type="image/x-icon" />
         <link rel="stylesheet" href="reset.css"> 
-        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="index.css"> 
+
     </head>
 
     <body>
-        <header>
 
-        </header>
+        <div class="contenedor-principal">
 
-        <main>
+            <div class="contenedor-izquierdo">
 
-        </main>
+                <header>
+
+                    <div class="encabezado-general">
+
+                        <a href="/">
+                            <img class="img-logo-alura" src= "images/Vector.png" alt="logo de alura"> 
+                        </a>
+
+                        <div class="encabezado">
+
+                            <h1 class="h1-encabezado">Challenge 1 - ONE Alura</h1>
+                            <p class="p-encabezado">Encriptador-Desencriptador de texto</p>   
+
+                        </div>
+
+                    </div>
+
+                </header>
+
+                <main>
+
+                    <form class="form-izquierdo" action="">
+
+                        <div class="controles-izquierdo">
+
+                            <label class="" for="palabra" ></label>                          
+                            <textarea class="textarea-principal" type="text" name="ingrese-texto" id="ingrese-texto" onkeydown="return check(event)" rows="10">Ingrese texto aquí</textarea>
+                            <p class="mensaje-chico">&#9888 Solo letras minúsculas y sin acentos</p>
+
+                        </div>
+
+                        <div class="btns-encripcion">
+
+                            <!-- se asocia el botón encriptar con la función en JavaScript llamada "encriptar()" al hacer clic -->
+                            <button class="btn-encriptar" type="button" id="btn-encriptar" name="btn-encriptar" onclick="encriptar();"> 
+
+                                Encriptar
+
+                            </button>
+
+                            <!-- se asocia el botón desencriptar con la función en JavaScript llamada "desencriptar()" al hacer clic -->
+                            <button class="btn-desencriptar" type="button" id="btn-desencriptar" onclick="desencriptar();"> 
+
+                                Desencriptar
+
+                            </button>
+                        </div>
+
+                    </form>
+
+                </main>
+
+            </div> 
+
+            <div class="contenedor-derecho">
+
+                <div class="form-derecho">
+
+                    <img class="img-munieco" src="images/Munieco.png" id="img-munieco" name="img-munieco" alt="persona buscando">
+                    <textarea class="textarea-resultado" type="text" name="ingrese-texto" id="ingrese-texto" onkeydown="return check(event)" placeholder="Ingrese texto aquí" rows="10"> </textarea>
+                    <h2 class="no-mensajes">Ningún mensaje fue encontrado</h2>
+
+                    <!-- se asocia el botón copiar con la función en JavaScript llamada "copiar()" al hacer clic -->
+                    <button class="btn-copiar" type="button" id="btn-copiar" name="btn-copiar" onclick="copiar();"> 
+
+                        Copiar
+
+                    </button>
+
+                    <p class="primero-ingresa">Ingresa el texto que deseas encriptar o desencriptar en al área principal</p>
+
+                </div>
+
+            </div>
+
+        </div>
 
         <footer>
 
+            <h2 class="copyright">&#169 J. Alejandro Hernandez S. 2023</h2>
+
         </footer>
+
+        <!-- se llama al archivo de JavaScript que contiene el código de funcionalidad -->
+        <script 
+
+            src="index.js">
+
+        </script>
+
     </body>
+
 </html>
-
-<script>
-
-</script>
